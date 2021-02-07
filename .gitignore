@@ -15,6 +15,7 @@
 /back-end/build
 
 # misc
+/back-end/uploads
 /back-end/.DS_Store
 /back-end/.env
 /back-end/.env.local

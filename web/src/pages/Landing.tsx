@@ -1,14 +1,14 @@
 
 import '../styles/pages/landing.css'
-import logo from '../images/logo.svg'
-import {FiArrowRight} from 'react-icons/fi'
+import Logo from '../images/logo.svg'
+import { FiArrowRight } from 'react-icons/fi'
 import { Link } from 'react-router-dom'
 
 function Landing () {
     return (
         <div id="page-landing">
             <div className="content-wrapper">
-                <img src={logo} alt=""/>
+                <img src={Logo} alt=""/>
             
                 <main>
                     <h1>Leve a felicidade para o mundo</h1>
