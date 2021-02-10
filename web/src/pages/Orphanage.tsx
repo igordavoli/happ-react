@@ -8,7 +8,6 @@ import '../styles/pages/orphanage.css';
 import mapIcon from "../utils/utils";
 import { useParams } from 'react-router-dom'
 
-
 interface OrphanageTypes {
   id: number,
   lat: number,
@@ -17,7 +16,7 @@ interface OrphanageTypes {
   about: string,
   instructions: string,
   opening_hours: string,
-  open_on_weekends: string,
+  open_on_weekends: boolean,
   images: Array<{
     url: string,
     id: number
@@ -27,7 +26,6 @@ interface OrphanageTypes {
 interface RouteParams {
   id: string
 }
-
 
 export default function Orphanage() {
   const params = useParams<RouteParams>();
